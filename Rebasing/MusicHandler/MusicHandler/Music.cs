@@ -1,10 +1,14 @@
 using System;
-public class Music
+namespace MusicHandler
 {
-    public string Name { get; set; }
-    public string Artist { get; set; }
-    public DateTime ReleaseDate { get; set; }
-    public Music()
+
+    public class Music
     {
+        public string Name { get; set; }
+        public string Artist { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public Music()
+        {
+        }
     }
 }
